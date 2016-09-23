@@ -45,25 +45,17 @@ session_start();
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
             <h1>Velkommen!</h1>
-            <p>På denne side kan man se forskellige opgaver vi blev stillet på CphBusiness, under vores PHP og Database forløb.</p>
+            <p>På denne side kan man se forskellige opgaver vi blev stillet på CphBusiness, under vores PHP og Database forløb.</p><br>
+            <p>Klik i menuen for at se de forskellige opgaver.</p>
             <p><!--<a class="btn btn-primary btn-large">Call to action!</a>-->
             </p>
         </header>
 
-        <hr>
+       
 
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Latest Features</h3>
-            </div>
-        </div>
-        <!-- /.row -->
+        
 
-        <!--inkludere se mere-->
-        <?php
-        include 'semere.php';
-        ?>
+        
 
         <hr>
 
