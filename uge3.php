@@ -2,7 +2,6 @@
 
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -31,9 +30,7 @@ session_start();
 <body>
 
     <!-- Navigation -->
-  
-   <!--Her var min navigation. Denne har jeg klippet ud og flyttet den over i et seperat dokument som jeg har kaldt menu.php for at den bliver vist på min side har jeg neden under indkluderet filen menu.php-->
-   <?php
+  <?php
     //inkludere nav på siden
         include 'menu.php';
     
@@ -44,8 +41,8 @@ session_start();
 
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-            <h1>Velkommen!</h1>
-            <p>På denne side kan man se forskellige opgaver vi blev stillet på CphBusiness, under vores PHP og Database forløb.</p>
+            <h1>Uge 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
             <p><!--<a class="btn btn-primary btn-large">Call to action!</a>-->
             </p>
         </header>
@@ -60,11 +57,11 @@ session_start();
         </div>
         <!-- /.row -->
 
-        <!--inkludere se mere-->
+        <!-- inkludere se mere -->
         <?php
         include 'semere.php';
         ?>
-
+        
         <hr>
 
         <!-- Footer -->

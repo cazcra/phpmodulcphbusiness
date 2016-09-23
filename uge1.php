@@ -31,9 +31,7 @@ session_start();
 <body>
 
     <!-- Navigation -->
-  
-   <!--Her var min navigation. Denne har jeg klippet ud og flyttet den over i et seperat dokument som jeg har kaldt menu.php for at den bliver vist på min side har jeg neden under indkluderet filen menu.php-->
-   <?php
+  <?php
     //inkludere nav på siden
         include 'menu.php';
     
@@ -44,8 +42,8 @@ session_start();
 
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-            <h1>Velkommen!</h1>
-            <p>På denne side kan man se forskellige opgaver vi blev stillet på CphBusiness, under vores PHP og Database forløb.</p>
+            <h1>PHP Menu</h1>
+            <p>Vores første opgave gik ud på, at vi skulle lave en menu/navigation ved hjælp af php. Den skulle også kunne se hvilken side man er på. Dette kan man se ved at navigationen viser navnet med rødt. Det smarte ved php er at man kan lave forskellige dokumenter og inkludere dem på sine sider. På den måde fylder en kode ikke så meget.</p>
             <p><!--<a class="btn btn-primary btn-large">Call to action!</a>-->
             </p>
         </header>
@@ -60,7 +58,8 @@ session_start();
         </div>
         <!-- /.row -->
 
-        <!--inkludere se mere-->
+        <!-- inkludere semere -->
+        
         <?php
         include 'semere.php';
         ?>
